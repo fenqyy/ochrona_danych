@@ -1,19 +1,19 @@
 def encrypt(message, key):
     encrypted_message = ""
-    message_low = message.lower()
-    for i in range(len(message_low)):
+    message = message.lower()
+    for i in range(len(message)):
         for x in range(len(alphabet)):
-            if alphabet[x] == message_low[i]:
+            if alphabet[x] == message[i]:
                 new_value = (x + key) % len(alphabet)
                 encrypted_message += alphabet[new_value]
     return encrypted_message
 
 def decrypt(encrypted_message, key):
     decrypted_message = ""
-    message_low = encrypted_message.lower()
-    for i in range(len(message_low)):
+    encrypted_message = encrypted_message.lower()
+    for i in range(len(encrypted_message)):
         for x in range(len(alphabet)):
-            if alphabet[x] == message_low[i]:
+            if alphabet[x] == encrypted_message[i]:
                 new_value = (x - key) % len(alphabet)
                 decrypted_message += alphabet[new_value]
     return decrypted_message
