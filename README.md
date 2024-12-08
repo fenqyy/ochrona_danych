@@ -2,4 +2,4 @@
 1. Napisz program korzystający z szyfru Cezara, który jest w stanie zaszyfrować i odszyfrować dowolny ciąg znaków z dowolnym kluczem. (Cezar.py)
 2. Napisz program korzystający z szyfru Vigenere'a, który jest w stanie zaszyfrować i odszyfrować dowolny ciąg znaków z dowolnym kluczem. (Vigenere.py)
 3. Napisz program próbujący złamać szyfr Cezara metodą analizy częstotliwości występowania liter w danym języku bez interwencji ludzkiej. Program powinien wytwarzać możliwe teksty jawne w przybliżonym porządku prawdopodobieństwa. Korzystne będzie umożliwienie użytkownikowi podania liczby (do 10) najbardziej prawdopodobnych kombinacji do wyświetlenia. (Niestety nie zostało zrobione.)
-4. Utwórz program umożliwiający zaszyfrowanie 8-bitowego tekstu przy użyciu 10-bitowego klucza, korzystając z szyfrowania S-DES.
+4. Utwórz program umożliwiający zaszyfrowanie 8-bitowego tekstu przy użyciu 10-bitowego klucza, korzystając z szyfrowania S-DES. (sdes.py)
